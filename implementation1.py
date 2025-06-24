@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('assets/logo.jpg', 1)
+img = cv2.imread('assets/logo.jpg', )
 
 # Resize the image
 img = cv2.resize(img, (0, 0), fx=0.4, fy=0.4)

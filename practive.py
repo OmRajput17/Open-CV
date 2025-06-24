@@ -6,8 +6,8 @@ cv.imshow('image', img)
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('image', gray)
 
-# blur = cv.GaussianBlur(img, (0,0), cv.BORDER_DEFAULT)
-# cv.imshow('image', blur)
+blur = cv.GaussianBlur(img, (0,0), cv.BORDER_DEFAULT)
+cv.imshow('image', blur)
 
 cv.waitKey(0)
 cv.destroyAllWindows()
