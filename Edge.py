@@ -1,6 +1,7 @@
 import cv2 as cv
 import numpy as np
 
+# Reading File
 img = cv.imread('assets/soccer_practice.jpg')
 img = cv.resize(img, (0,0), fx=0.5, fy=0.5) 
 cv.imshow('Original', img)
